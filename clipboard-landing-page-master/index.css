@@ -1,0 +1,153 @@
+#title {
+  text-align: center;
+  background-image: url("./images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 50px;
+}
+
+#track {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.heading {
+  font-size: 44px;
+}
+
+p {
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+}
+
+.download1 {
+  border-radius: 100px;
+  padding: 6px;
+  margin: 2px;
+  background-color: hsl(171, 66%, 44%);
+  border-width: 0;
+  color: white;
+  height: 40px;
+  width: 160px;
+}
+
+.download2 {
+  border-radius: 100px;
+  padding: 6px;
+  margin: 2px;
+  background-color: hsl(233, 100%, 69%);
+  border-width: 0;
+  color: white;
+  height: 40px;
+  width: 160px;
+}
+
+.computer,
+.devices {
+  width: 80%;
+}
+
+.features {
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+.features p {
+  position: relative;
+  top: 40px;
+}
+
+.features h3 {
+  position: relative;
+  top: 40px;
+}
+
+#clipboard {
+  text-align: center;
+  margin: 140px 0;
+}
+
+#tools {
+  text-align: center;
+  margin: 120px 0;
+}
+
+#tools img {
+  margin: 0 0 50px 0;
+}
+
+#tools p {
+  margin: 0 0 40px 0;
+}
+
+.companies img {
+  text-align: center;
+}
+
+#logos {
+  text-align: center;
+}
+
+.company {
+  margin: 60px;
+}
+
+#available {
+  text-align: center;
+  margin: 120px 0;
+  padding: 50px;
+}
+
+#available button {
+  margin-top: 20px;
+}
+
+.logo2 {
+  height: 40px;
+  margin-bottom: 14px;
+}
+
+#footer {
+  background-color: rgb(201, 201, 201);
+  padding: 60px 140px;
+}
+
+#footer .logos {
+  margin: 0 12px;
+}
+
+#footer .logo {
+  position: relative;
+  left: 200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .companies img {
+    text-align: center;
+    display: inline-block;
+  }
+
+  #footer {
+    background-color: rgb(201, 201, 201);
+    padding: 40px;
+    text-align: center;
+  }
+
+  #footer .logo {
+    text-align: left;
+  }
+
+  .features {
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+}
